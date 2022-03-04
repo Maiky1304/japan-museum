@@ -119,6 +119,85 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.contact {
+  padding: 5rem 2.5rem;
+  background: #111;
+  color: white;
+}
+
+.contact > .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem 1rem;
+}
+
+.contact > .grid > input[type="text"],
+.contact > .grid input[type="email"],
+.contact > .grid textarea {
+  width: 100%;
+  color: #ccc;
+  background: #111;
+  padding: 0.5rem 0.3rem;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact > .grid > input[type="text"]::-webkit-input-placeholder,
+.contact > .grid input[type="email"]::-webkit-input-placeholder,
+.contact > .grid textarea::-webkit-input-placeholder {
+  color: #ccc;
+  opacity: 0.8;
+}
+
+.contact > .grid > input[type="text"]:-ms-input-placeholder,
+.contact > .grid input[type="email"]:-ms-input-placeholder,
+.contact > .grid textarea:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 0.8;
+}
+
+.contact > .grid > input[type="text"]::-ms-input-placeholder,
+.contact > .grid input[type="email"]::-ms-input-placeholder,
+.contact > .grid textarea::-ms-input-placeholder {
+  color: #ccc;
+  opacity: 0.8;
+}
+
+.contact > .grid > input[type="text"]::placeholder,
+.contact > .grid input[type="email"]::placeholder,
+.contact > .grid textarea::placeholder {
+  color: #ccc;
+  opacity: 0.8;
+}
+
+.contact > .grid > input[type="text"]:focus,
+.contact > .grid input[type="email"]:focus,
+.contact > .grid textarea:focus {
+  border-bottom: 1px solid #f6f6f6;
+  outline: none;
+}
+
+.contact > .grid > input[type="submit"] {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: white;
+  font-family: inherit;
+}
+
+.contact > .grid > .input__group:last-child {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
 .footer {
   height: 7.5rem;
   background-color: black;
