@@ -7,12 +7,12 @@
 
 body {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .header {
   background: black;
-  height: 80px;
+  height: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
 }
 
 .header > .header__title {
@@ -54,7 +54,7 @@ body {
 
 .collections {
   width: 100vw;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .collections .collections__title {
@@ -62,7 +62,7 @@ body {
   color: black;
   text-transform: uppercase;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .collections .collections__list {
@@ -70,7 +70,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -93,11 +93,11 @@ body {
 }
 
 .info {
-  padding: 40px;
+  padding: 2.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -116,11 +116,11 @@ body {
   color: black;
   text-transform: uppercase;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .footer {
-  height: 120px;
+  height: 7.5rem;
   background-color: black;
   color: white;
   display: -webkit-box;
@@ -132,7 +132,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
 }
 
 .footer > .footer__nav {
@@ -155,7 +155,7 @@ body {
 
 @media screen and (max-width: 700px) {
   body {
-    font-size: 14px;
+    font-size: 0.87rem;
   }
   .header > .header__title {
     font-size: 380%;
